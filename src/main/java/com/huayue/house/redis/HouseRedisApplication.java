@@ -18,6 +18,7 @@ public class HouseRedisApplication {
         Object name = redisTemplate.opsForValue().get("name");
         System.out.println(name);
 
+        System.out.println("================");
         context.close();
     }
 }

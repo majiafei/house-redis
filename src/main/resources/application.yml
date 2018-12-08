@@ -1,0 +1,6 @@
+#redis配置
+spring:
+  redis:
+    host: 192.168.221.129
+    port: 6379
+
